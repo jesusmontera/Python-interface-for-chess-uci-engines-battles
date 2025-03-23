@@ -16,5 +16,6 @@ Nice big board and sound on move
 
 I have Arena but I use it because is easier and faster and I like its board.
 
+![chessgui75](https://github.com/user-attachments/assets/43129bbd-a8e8-49fb-9d1b-82d33c587136)
 
 
