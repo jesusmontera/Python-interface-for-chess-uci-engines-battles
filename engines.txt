@@ -1,0 +1,40 @@
+/ engine white index 
+0
+/ engine black index 
+1
+/  engines names and paths
+human
+human no path
+leela chess zero
+/home/luis/Documentos/codeblocks/leela/lc0/build/release/lc0
+stockfish14.1
+/media/luis/48A0CF8FA0CF8244/luis/codigo phyton lubuntu/ajedrez/fenn_board/stockfish14.1
+Drofa
+/home/luis/Documentos/codeblocks/Drofa-master/Drofa_dev
+numbfish1
+/home/luis/Documentos/codeblocks/numbfish1/bin/Release/numbfish1
+diseervin_fish
+/home/luis/Documentos/codeblocks/diseervin_fish/bin/Release/diseervin_fish
+baislicka
+/home/luis/Documentos/codeblocks/Baislicka/Baislicka/build/baislicka
+rice
+/home/luis/Documentos/codeblocks/rice1/bin/Release/rice1
+rice luis
+/home/luis/Documentos/codeblocks/rice3/bin/Release/rice1
+mcts_dinora
+/home/luis/Documentos/codeblocks/leela/dinora/mcts_dinora/nnuein/bin/Release/mcts_dinora
+/ 
+/ openning books
+/  current book index
+1
+None
+None book path
+/  books names and paths
+Perfect2021
+/home/luis/Documentos/codeblocks/libnumbfish/book/Perfect2021.bin
+Titans
+/home/luis/Documentos/codeblocks/libnumbfish/book/Titans.bin
+baron30
+/home/luis/Documentos/codeblocks/libnumbfish/book/baron30.bin
+Human
+/home/luis/Documentos/codeblocks/libnumbfish/book/Human.bin
