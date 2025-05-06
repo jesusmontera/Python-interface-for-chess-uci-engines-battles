@@ -296,7 +296,17 @@ class ChessGuiTk:
         fila = y // tamano_casilla
         columna = x // tamano_casilla
         return fila, columna
-    
+
+    def is_human_move_promotion(self):
+        for move in self.board.legal_moves:
+            if self.human_move.from_square == move.from_square and self.human_move.to_square == move.to_square and move.promotion== chess.QUEEN:
+                self.human_move=move
+                return True
+        self.human_move=None
+        return False
+            
+        
+        
     def click_canvas(self,event):
         
         if self.state!=HILO_PLAY:
@@ -315,9 +325,10 @@ class ChessGuiTk:
                 bdraw=True
         else:            
             self.human_move.to_square = square
+            
             if not self.human_move in self.board.legal_moves:
-                self.human_move=None
-                
+                if self.is_human_move_promotion():
+                    bdraw=True
             else:
                 bdraw=True
         if bdraw:
@@ -422,8 +433,8 @@ class ChessGuiTk:
             else:
                 self.set_engine_param(self.engine1,"POLICY_NNUE", False)
                 
-        self.print_engine_options(self.engine1)
-        self.print_engine_options(self.engine2)
+##        self.print_engine_options(self.engine1)
+##        self.print_engine_options(self.engine2)
 
         if self.var_elo1.get() ==1:
             self.set_elo(self.engine1,int(self.tx_Welo.get()))
